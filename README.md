@@ -1,4 +1,4 @@
-This is a basic kelogger that I have created purely in python.
+This is a basic key-logger that I have created purely in python.
 
 It consists of two parts:
 - a keylogger
