@@ -32,6 +32,8 @@ how the keystrokes are captured and sent in json format alongside the request it
 
 In the next image you can see that the image has also been sent via email. The name of the image contains the date and time of the caputre.
 
+The images are captured and sent via email every minute.This could be changed in the code itself.
+
 ![Screenshot at 2024-06-30 20-15-08](https://github.com/sp3c1fic/keylogger/assets/80251840/1d92c4c9-9543-44bd-a06a-6b373e53a52e)
 
 
