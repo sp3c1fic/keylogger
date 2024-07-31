@@ -126,6 +126,9 @@ The last step is to actually convert the script to .exe:
 
 After the conversion there will be two folders. build and dist. The .exe could be found inside the dist folder.
 
+![Screenshot at 2024-07-31 23-45-15](https://github.com/user-attachments/assets/77ce9145-9a20-44ab-80b9-842a378db127)
+
+
 From there on it is up to you and your social engineering skills to actually distribute the malware.
 
 (Don't forget to make the neccessary tweaks in the script before all the previous step.)
