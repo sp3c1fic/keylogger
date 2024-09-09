@@ -144,7 +144,9 @@ It can be extended upon.
 Additional features like:
 
 -Data encryption
+
 -Obfuscation: Make the script undetectable
+
 -Application Usage: Log which applications are in use and the duration of their usage.
+
 -Website Monitoring: Track visited websites and browser activity.
--Convert to an executable.
