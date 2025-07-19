@@ -155,14 +155,16 @@ Also change the ip of the server depending on whether it'd be running on LAN or 
 > This project is provided for **educational and authorized security research only**.  
 > The developer is **not responsible** for any misuse, unauthorized deployment, or unethical application of this tool.
 
-It can be extended upon.
+## 🧬 Extension Ideas
 
-Additional features like:
+- 🔒 AES encryption of logs
+- 🎭 Obfuscation via tools like `pyarmor`
+- 🖥️ App usage tracking & browser history
+- 🧠 Anti-analysis features for sandbox evasion
 
--Data encryption
+---
 
--Obfuscation: Make the script undetectable
+## 🧠 Author
 
--Application Usage: Log which applications are in use and the duration of their usage.
-
--Website Monitoring: Track visited websites and browser activity.
+Built by [sp3c1fic](https://github.com/sp3c1fic) a.k.a. **Mr. Duracell**  
+*Power always on. Logs always rolling.*
