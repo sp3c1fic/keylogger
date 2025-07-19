@@ -1,8 +1,23 @@
-This is a basic key-logger that I have created purely in python.
+# 🩸 Python Keylogger (with Screenshot Beacon)
+
+A lightweight keylogging implant written entirely in Python, designed for educational red team use.  
+Captures keystrokes, sends logs via HTTP, and emails screenshots from compromised systems.
+
+Includes full .exe conversion flow from Linux using Wine for cross-platform payload generation.
+
+## 🚨 Features
+
+- 🔑 Keylogging (stored locally + exfiltrated via POST)
+- 📸 Screenshot capture every minute (emailed)
+- 📤 Email-based exfiltration with timestamped filenames
+- 🖥 Works on target systems with **no elevated privileges**
+- 📦 Full `.exe` conversion on Linux using **Wine + PyInstaller**
+- 🧱 Modular: server-side listener included
 
 It consists of two parts:
 - a keylogger
 - and a server
+
 
 This is basically how it works.
 
@@ -136,8 +151,9 @@ From there on it is up to you and your social engineering skills to actually dis
 Changing emails, credentials.
 Also change the ip of the server depending on whether it'd be running on LAN or WAN (Port forwarding will be crucial for WAN)
 
-!!! THIS IS ONLY FOR EDUCATIONAL PURPOSES !!!
-
+> ⚠️ **DISCLAIMER**  
+> This project is provided for **educational and authorized security research only**.  
+> The developer is **not responsible** for any misuse, unauthorized deployment, or unethical application of this tool.
 
 It can be extended upon.
 
